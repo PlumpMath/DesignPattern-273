@@ -7,8 +7,8 @@ public class Test1 {
 		String[] sArr = new String[]{"a", "b", "c"};
 		Integer[] iArr = new Integer[]{0, 1, 2, 3};
 		
-		MyObject<String> mo1 = new MyObject(sArr);
-		MyObject<Integer> mo2 = new MyObject(iArr);
+		MyObject<String> mo1 = new MyObject<String>(sArr);
+		MyObject<Integer> mo2 = new MyObject<Integer>(iArr);
 		
 		Iterator it = mo1.iterator();
 		while(it.hasNext()){
