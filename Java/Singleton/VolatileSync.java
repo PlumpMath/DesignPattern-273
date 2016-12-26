@@ -17,8 +17,7 @@ class SingletonClass{
 	private volatile static SingletonClass instance = null; 
 	
 	//must be private to avoid being called by other class
-	private SingletonClass(){
-	}
+	private SingletonClass(){}
 
 	public static SingletonClass getInstance() { 
 		if (instance == null) { 

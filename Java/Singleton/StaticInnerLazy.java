@@ -10,8 +10,7 @@ public class StaticInnerLazy {
 //The instance would be created only when we need it--getInstance().
 class Singleton3{ 
 	//must be private to avoid being called by other class
-	private Singleton3(){
-	}
+	private Singleton3(){}
 	
 	//static inner class ensures it is not exposed to out class.
 	//keyword static also ensures there is only one instance.
