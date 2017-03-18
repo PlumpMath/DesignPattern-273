@@ -1,8 +1,8 @@
-package MyIterator;
+package iterator;
 
 import java.util.Iterator;
 
-public class Test1 {
+public class MyExample {
 	public static void main(String[] args) {
 		String[] sArr = new String[]{"a", "b", "c"};
 		Integer[] iArr = new Integer[]{0, 1, 2, 3};
@@ -41,20 +41,19 @@ class MyObject <E> implements Iterable{
 		return new Itr();
 	}
 	
-	 private class Itr implements Iterator{  
-         private int cursor = 0; // 属性的索引  
+	private class Itr implements Iterator {  
+        private int cursor = 0; // 属性的索引  
            
-         public boolean hasNext() {  
-             return cursor!= value.length;  
-         }  
+        public boolean hasNext() {  
+            return cursor!= value.length;  
+        }  
    
-         public E next() {  
-             return value[cursor++];  
-         }  
+        public E next() {  
+            return value[cursor++];  
+        }  
    
-         public void remove() {  
-        	 throw new UnsupportedOperationException();          
-         }  
-           
-     }  
+        public void remove() {  
+       	    throw new UnsupportedOperationException();          
+        }           
+    }  
 }
