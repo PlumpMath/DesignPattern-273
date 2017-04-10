@@ -1,5 +1,6 @@
 bin
-
+DesignPattern.eml
+DesignPattern.iml
 *.class
 
 # Mobile Tools for Java (J2ME)
