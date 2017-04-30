@@ -1,7 +1,7 @@
 package factory.factoryMethod;
 
 public class ShanghaiFactory extends CityFactory {
-	public City create() {
+	public City createCity() {
 		return new Shanghai();
 	}
 }

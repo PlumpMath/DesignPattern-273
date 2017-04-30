@@ -4,16 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class CityFactory {
-	public abstract City create();
+	public abstract City createCity();
 	
-	public List<City> createCityVector() {
+	public List<City> createCities() {
 		List<City> cities = new ArrayList<City>();
 		for (int i = 0; i < 10; ++i) {
-			City c = create();
+			City c = createCity();
 			cities.add(c);
 		}
 		
 		return cities;
 	}
-
 }
