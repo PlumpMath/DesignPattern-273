@@ -1,11 +1,13 @@
 package factory.abstractFactory;
 
-public class AirFrance extends Air{
+public class AirFrance extends Air {
 	private String name;
-	public AirFrance(){
+	
+	public AirFrance() {
 		name = "AirFrance";
 	}
-	public void PrintName(){
+	
+	public void PrintName() {
 		System.out.println(name);
 	}
 }

@@ -3,10 +3,10 @@ package factory.factoryMethod;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class CityFactory {
-	public abstract City createCity();
+public interface CityFactory {
+	City createCity();
 	
-	public List<City> createCities() {
+	default List<City> createCities() {
 		List<City> cities = new ArrayList<City>();
 		for (int i = 0; i < 10; ++i) {
 			City c = createCity();

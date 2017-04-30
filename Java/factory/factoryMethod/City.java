@@ -1,7 +1,7 @@
 package factory.factoryMethod;
 
-public interface City {
-	public void printName();
+public abstract class City {
+	abstract void printName();
 }
 
 

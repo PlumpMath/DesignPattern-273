@@ -1,6 +1,6 @@
 package factory.simpleFactory;
 
-public class CityManager {
+public class CityFactory {
 	public static City Factory(String name){
 		if(name == null){
 			System.out.println("input name is null");

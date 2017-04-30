@@ -1,6 +1,6 @@
 package factory.factoryMethod;
 
-public class Shanghai implements City {
+public class Shanghai extends City {
 	private String name;
 	
 	public Shanghai() {

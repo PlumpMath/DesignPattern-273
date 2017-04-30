@@ -2,7 +2,7 @@ package factory.simpleFactory;
 
 public class Test {
 	public static void main(String[] args) {
-		CityManager cm = new CityManager();
+		CityFactory cm = new CityFactory();
 		City c = cm.Factory("Paris");
 		c.printName();
 
