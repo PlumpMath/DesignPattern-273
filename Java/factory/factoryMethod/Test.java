@@ -1,6 +1,5 @@
 package factory.factoryMethod;
 
-import java.util.LinkedList;
 import java.util.List;
 
 public class Test {

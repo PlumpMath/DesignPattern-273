@@ -12,6 +12,7 @@ public abstract class CityFactory {
 			City c = create();
 			cities.add(c);
 		}
+		
 		return cities;
 	}
 

@@ -1,13 +1,13 @@
 package factory.factoryMethod;
 
-
-public class Shanghai implements City{
+public class Shanghai implements City {
 	private String name;
-	public Shanghai(){
+	
+	public Shanghai() {
 		name = "Shanghai";
 	}
 	
-	public void printName(){
+	public void printName() {
 		System.out.println(name);
 	}
 }
