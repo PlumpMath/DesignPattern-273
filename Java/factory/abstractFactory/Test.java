@@ -1,6 +1,6 @@
 package factory.abstractFactory;
 
-public class Demo {
+public class Test {
 	public static void main(String[] args) {
 		AbstractTravelManager tm = new ParisTravelManager();
 		City c = tm.createCity();

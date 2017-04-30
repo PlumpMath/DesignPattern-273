@@ -3,7 +3,7 @@ package factory.factoryMethod;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Demo {
+public class Test {
 	public static void main(String[] args) {
 		CityFactory cf = new ParisFactory();
 		City c = cf.create();
