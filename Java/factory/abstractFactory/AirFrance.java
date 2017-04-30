@@ -1,4 +1,4 @@
-package AbstractFactory;
+package factory.abstractFactory;
 
 public class AirFrance extends Air{
 	private String name;

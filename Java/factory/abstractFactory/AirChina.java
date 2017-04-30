@@ -1,4 +1,4 @@
-package AbstractFactory;
+package factory.abstractFactory;
 
 public class AirChina extends Air{
 	private String name;

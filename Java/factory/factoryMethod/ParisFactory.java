@@ -1,4 +1,4 @@
-package FactoryMethod;
+package factory.factoryMethod;
 
 public class ParisFactory extends CityFactory{
 	public City create(){

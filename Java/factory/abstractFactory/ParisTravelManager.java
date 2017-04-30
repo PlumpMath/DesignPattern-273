@@ -1,4 +1,4 @@
-package AbstractFactory;
+package factory.abstractFactory;
 
 public class ParisTravelManager extends AbstractTravelManager{
 	public City createCity(){

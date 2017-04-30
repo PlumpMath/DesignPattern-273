@@ -1,5 +1,4 @@
-package FactoryMethod;
-
+package factory.simpleFactory;
 
 public class Shanghai implements City{
 	private String name;

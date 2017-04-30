@@ -1,4 +1,4 @@
-package SimpleFactory;
+package factory.simpleFactory;
 
 public class CityManager {
 	public static City Factory(String name){

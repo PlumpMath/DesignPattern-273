@@ -1,12 +1,11 @@
-package SimpleFactory;
+package factory.abstractFactory;
 
-public class Shanghai implements City{
+public class Shanghai extends City{
 	private String name;
 	public Shanghai(){
 		name = "Shanghai";
 	}
-	
-	public void printName(){
+	public void PrintName(){
 		System.out.println(name);
 	}
 }

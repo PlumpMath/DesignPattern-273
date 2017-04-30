@@ -1,11 +1,13 @@
-package AbstractFactory;
+package factory.factoryMethod;
 
-public class Shanghai extends City{
+
+public class Shanghai implements City{
 	private String name;
 	public Shanghai(){
 		name = "Shanghai";
 	}
-	public void PrintName(){
+	
+	public void printName(){
 		System.out.println(name);
 	}
 }

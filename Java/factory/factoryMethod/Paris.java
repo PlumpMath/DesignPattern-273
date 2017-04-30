@@ -1,4 +1,4 @@
-package FactoryMethod;
+package factory.factoryMethod;
 
 public class Paris implements City{
 	private String name;
