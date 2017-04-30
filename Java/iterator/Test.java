@@ -2,7 +2,7 @@ package iterator;
 
 import java.util.Iterator;
 
-public class MyExample {
+public class Test {
 	public static void main(String[] args) {
 		String[] sArr = new String[]{"a", "b", "c"};
 		Integer[] iArr = new Integer[]{0, 1, 2, 3};
@@ -11,24 +11,23 @@ public class MyExample {
 		MyObject<Integer> mo2 = new MyObject<Integer>(iArr);
 		
 		Iterator it = mo1.iterator();
-		while(it.hasNext()){
+		while(it.hasNext())
 			System.out.print(it.next() + " ");
-		}
+		
 		System.out.println("\n");
 		it = mo2.iterator();
-		while(it.hasNext()){
+		while(it.hasNext())
 			System.out.print(it.next() + " ");
-		}
 	}
-
 }
 
-class MyObject <E> implements Iterable{
+class MyObject <E> implements Iterable<Object>{
 	private E[] value;
 	
 	public MyObject(){
 		value = null;
 	}
+	
 	public MyObject(E[] e){
 		value = e;
 	}

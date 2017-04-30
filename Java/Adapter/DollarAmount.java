@@ -4,7 +4,7 @@ class DollarAmount implements IDollarAmount {
 	private	int dollars;
 	private	int cents;
 	
-	public DollarAmount( int dollars, int cents ) {
+	public DollarAmount(int dollars, int cents) {
 		this.dollars = dollars;
 		this.cents = cents;
 	}

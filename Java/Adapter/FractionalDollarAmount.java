@@ -3,7 +3,7 @@ package Adapter;
 class FractionalDollarAmount {
 	private	double dollars;
 	
-	public FractionalDollarAmount( double dollars ) {
+	public FractionalDollarAmount(double dollars) {
 		this.dollars = dollars;
 	}
 	

@@ -1,6 +1,6 @@
 package Adapter;
 
-interface IDollarAmount {
-	public int getDollars();
-	public int getCents();
+public interface IDollarAmount {
+	int getDollars();
+	int getCents();
 }

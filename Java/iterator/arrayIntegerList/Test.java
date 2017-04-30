@@ -12,7 +12,7 @@ package iterator.arrayIntegerList;
 //Create the iterator class for ArrayIntegerList, and have the createIterator function return it.
 //Complete the printList function of class Example to print the list using the given iterator
 
-public class Example  {  // client
+public class Test  {  // client
 	public static void main(String[] args) {
 		ArrayIntegerList arrayIntegerList = new ArrayIntegerList();
 		IntValIterator iterator;
