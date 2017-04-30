@@ -1,21 +1,17 @@
 package Singleton;
 
-public class Lazy {
-	public static void main(String[] args) {
-	}
-}
+public class Lazy {}
 
-//non thread safe
-class Singleton1{
-	private static Singleton1 uniqueInstance = null;
+// not thread safe
+class SingletonLazy{
+	private static SingletonLazy instance = null;
 	
-	private Singleton1(){
-	}
+	private SingletonLazy(){}
 	
-	public static Singleton1 getInstance(){
-		if(uniqueInstance == null){
-			uniqueInstance = new Singleton1();
-		}
-		return uniqueInstance;
+	public static SingletonLazy getInstance(){
+		if(instance == null)
+			instance = new SingletonLazy();
+			
+		return instance;
 	}
 }

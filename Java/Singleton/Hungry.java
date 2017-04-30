@@ -1,16 +1,15 @@
 package Singleton;
 
-public class Hungry {
-}
+public class Hungry {}
 
-//thread safe
-class Singleton4{
-	private Singleton4(){
-	}
+// thread safe, but not lazy loading
+class SingletonHungry{
+	private SingletonHungry(){}
 	
-	private static final Singleton4 single = new Singleton4();
+	private static final SingletonHungry instance = 
+			new SingletonHungry();
 	
-	public static Singleton4 getInstance(){
-		return single;
+	public static SingletonHungry getInstance(){
+		return instance;
 	}
 }
